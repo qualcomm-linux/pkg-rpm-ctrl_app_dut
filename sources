@@ -19,4 +19,4 @@
 # lookaside cache by this checksum; on a miss it downloads the matching
 # Source URL from your spec, verifies this checksum, and caches it back.
 #
-SHA512 (mypackage-1.0.tar.gz) = REPLACE_ME_WITH_THE_REAL_SHA512_OF_YOUR_TARBALL
+SHA512 (ctrl-app-dut_2.3.0_arm64.tar.gz) = 683b3b5ce83ea4739b6ab3d7749a9b842f48134f46fdfc70864b0e46e8b6d6bb572c0a2fde9257c1c662a79da89f7b4e7acab18d2f24381f48617192b39700e6
