@@ -25,6 +25,11 @@ The prebuilt payload installs:
 - /usr/bin/ctrl_app_dut
 - /usr/sbin/ctrl_app_dut
 
+License documents are installed under `/usr/share/licenses/ctrl-app-dut/`
+and marked as license files in the RPM:
+
+- `copyright`
+
 ## Files
 
 - ctrl-app-dut.spec

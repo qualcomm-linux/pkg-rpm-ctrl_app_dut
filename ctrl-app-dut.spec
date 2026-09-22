@@ -24,9 +24,12 @@ controller to configure the device and perform WLAN test operations.
 %install
 mkdir -p %{buildroot}
 cp -a data/%{name}/arm64/. %{buildroot}/
+# Install license documents separately with %license.
+rm -f %{buildroot}%{_docdir}/%{name}/copyright
 find %{buildroot} \( -type f -o -type l \) -printf '/%%P\n' | sort > %{name}.files
 
 %files -f %{name}.files
+%license data/%{name}/arm64/usr/share/doc/%{name}/copyright
 
 %changelog
 * Fri Aug 21 2026 Yu Zhang <yu.zhang@oss.qualcomm.com> - 2.3.0-1
