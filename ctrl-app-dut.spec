@@ -3,7 +3,7 @@
 Name:           ctrl-app-dut
 Version:        2.3.0
 Release:        1%{?dist}
-Summary:        Qualcomm WLAN control application DUT binary
+Summary:        Qualcomm WLAN control application for devices under test
 
 License:        Qualcomm.nologin.binaries.license
 Source0:        https://qartifactory-edge.qualcomm.com/artifactory/qsc_releases/software/chip/component/wlan-service.qclinux.0.0/260630.1/prebuilt_resolute/%{name}_%{version}_arm64.tar.gz
@@ -11,7 +11,9 @@ Source0:        https://qartifactory-edge.qualcomm.com/artifactory/qsc_releases/
 ExclusiveArch:  aarch64
 
 %description
-ctrl-app-dut is packaged from a Qualcomm Linux release tarball.
+ctrl-app-dut provides device-side control for testing Qualcomm WLAN
+devices. It runs on the device under test (DUT) and allows a test
+controller to configure the device and perform WLAN test operations.
 
 %prep
 %autosetup -c -n %{name}-%{version}

@@ -4,6 +4,10 @@ SPDX-License-Identifier: BSD-3-Clause
 -->
 # ctrl-app-dut RPM - CentOS Stream 10
 
+ctrl-app-dut provides device-side control for testing Qualcomm WLAN
+devices. It runs on the device under test (DUT) and allows a test
+controller to configure the device and perform WLAN test operations.
+
 This branch contains the CentOS Stream 10 RPM packaging for ctrl-app-dut from a Qualcomm Linux release tarball.
 
 ## Package
@@ -11,6 +15,7 @@ This branch contains the CentOS Stream 10 RPM packaging for ctrl-app-dut from a 
 | Field | Value |
 |---|---|
 | Package | ctrl-app-dut |
+| Summary | Qualcomm WLAN control application for devices under test |
 | Version | 2.3.0 |
 | Source | ctrl-app-dut_2.3.0_arm64.tar.gz |
 | Source checksum | See sources |
